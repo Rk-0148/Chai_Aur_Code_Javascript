@@ -2,35 +2,34 @@
 
 //  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
 
-const score = 100
-const scoreValue = 100.3
+const score = 100;
+const scoreValue = 100.3;
 
-const isLoggedIn = false
-const outsideTemp = null
+const isLoggedIn = false;
+const outsideTemp = null;
 let userEmail;
 
-const id = Symbol('123')
-const anotherId = Symbol('123')
+const id = Symbol("RK-0148");
+const anotherId = Symbol("RK-1602");
 
 console.log(id === anotherId);
 
 // const bigNumber = 3456543576654356754n
 
-
-
 // Reference (Non primitive)
 
 // Array, Objects, Functions
 
-const heros = ["shaktiman", "naagraj", "doga"];
+const heros = ["NTR", "RAM CHARAN", "PRABHAS"];
 let myObj = {
-    name: "hitesh",
-    age: 22,
-}
+  name: "ROHAN",
+  age: 22,
+};
 
-const myFunction = function(){
-    console.log("Hello world");
-}
+const myFunction = function () {
+  console.log("Hello world");
+  console.log("Practice Js");
+};
 
 console.log(typeof anotherId);
 
