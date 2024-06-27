@@ -1,6 +1,6 @@
 // switch (key) {
 //     case value:
-        
+           // console.log
 //         break;
 
 //     default:
